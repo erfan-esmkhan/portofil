@@ -1,86 +1,185 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="index.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Hamidreza Jamshasb | AI Developer</title>
 </head>
-
 <body>
-
-
-    <section >
-        <header class="container " >
-            <div class="page-header">
-                <div class="logo">
-                    <a href="#">Logo.</a>
-                </div>
-                <input type="checkbox" id="click">
-    
-                <label for="click" class="mainicon">
-                    <div class="menu">
-                        <i class='bx bx-menu'></i>
-                    </div>
-                </label>
-                <ul>
-                    <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
-                    <li><a href="#" style="--navAni:2">About</a></li>
-                    <li><a href="#" style="--navAni:3">Skills</a></li>
-                    <li><a href="#" style="--navAni:4">Portfolio</a></li>
-                    <li><a href="#" style="--navAni:5">Contact</a></li>
-                </ul>
-                <label class="mode">
-                    <input type="checkbox" id="darkModeToggle">
-                    <i class='bx bxs-moon'></i>
-                </label>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">H.J.</a>
             </div>
-        </header>
-    
-        <div class="container ">
-            <div class="main" >
-                <div class="detail">
-                    <h3>Hi, I'm</h3>
-                    <h1><span class="h1-elem">Erfan</span> Esmkhani</h1> 
-                    <p>I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by
-                        web development solutions
-                    </p>  
-                    <div class="social">
-                        <a href="#" style="--socialAni:1"><i class='bx bxl-linkedin'></i></a>
-                        <a href="https://www.instagram.com/erfan.esmkhani" style="--socialAni:2"><i class='bx bxl-instagram'></i></a>
-                        <a href="https://github.com/erfan-esmkhan" style="--socialAni:3"><i class='bx bxl-github'></i></a>
-                        <a href="#" style="--socialAni:4"><i class='bx bxl-youtube'></i></a>
+            <input type="checkbox" id="click">
+            
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#home" class="active" style="--navAni:1">Home</a></li>
+                <li><a href="#about" style="--navAni:2">About</a></li>
+                <li><a href="#skills" style="--navAni:3">Skills</a></li>
+                <li><a href="#contact" style="--navAni:4">Contact</a></li>
+            </ul>
+            
+            <div class="mode">
+                <i class='bx bxs-moon'></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="container">
+        <div class="main">
+            <div class="rounding-sec">
+                <div class="big-circle">
+                    <div class="icon-block">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+                    </div>
+                    <div class="icon-block">
+                       <img src="https://cdn-icons-png.flaticon.com/512/1384/1384015.png" alt="Instagram" />
+                    </div>
+                    <div class="icon-block">
+                        <i class='bx bxl-telegram'></i>
+                    </div>
+                    <div class="icon-block">
+                        <i class='bx bxl-linkedin'></i>
                     </div>
                 </div>
                 <div class="images">
-                    <img src="79226905.png" alt="" class="img-w">
+                    <div class="center-icon">
+                        <i class='bx bxs-brain'></i>
+                    </div>
                 </div>
             </div>
-          
-        </div>
-      
-      <div class="bg-particle"> 
-          <div id="particles-js"></div>
-        </div>
-
-    </section>
-    
-
-    <section>
-        <div class="about_page">
-            <h2>degree of <span class="h1-elem">education</span> </h2>
-            <article class="about_article">Bachelor of Computer Engineering from Urmia University of Technology</article>
+            <div class="detail">
+                <h3>Hello, I'm</h3>
+                <h1><span style="color:#f9532d;">Hamidreza</span> Jamshasb</h1>
+                <p>AI Developer & Researcher. Currently studying at Urmia University of Technology. Passionate about creating intelligent solutions using Machine Learning and Deep Learning technologies.</p>
+                <button onclick="location.href='#contact'">Contact Me</button>
+            </div>
         </div>
     </section>
 
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="about-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-icon">
+                        <i class='bx bx-code-alt'></i>
+                    </div>
+                    <h3>AI Developer & Researcher</h3>
+                    <p>I am a passionate Artificial Intelligence developer currently pursuing my studies at Urmia University of Technology. My focus is on Machine Learning, Deep Learning, and Natural Language Processing.</p>
+                    <p>With hands-on experience in various AI projects, I specialize in developing intelligent systems that can solve real-world problems. My academic background combined with practical project experience allows me to approach challenges from both theoretical and applied perspectives.</p>
+                    <div class="education">
+                        <h4><i class='bx bxs-graduation'></i> Education</h4>
+                        <div class="education-item">
+                            <p class="degree">B.Sc. in Computer Engineering</p>
+                            <p class="university">Urmia University of Technology</p>
+                            <p class="year">2022 – Present</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container">
+        <div class="skills-container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="90">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Machine Learning, Deep Learning</p>
+                </div>
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="85">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>TensorFlow</h3>
+                    <p>Neural Networks, Model Training</p>
+                </div>
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="80">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>PyTorch</h3>
+                    <p>Deep Learning Frameworks</p>
+                </div>
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="75">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>NLP</h3>
+                    <p>Natural Language Processing</p>
+                </div>
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="70">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>Computer Vision</h3>
+                    <p>Image Processing, Object Detection</p>
+                </div>
+                <div class="skill-item">
+                    <div class="circular-progress" data-percent="85">
+                        <span class="progress-value">0%</span>
+                    </div>
+                    <h3>Data Analysis</h3>
+                    <p>Pandas, NumPy, Data Visualization</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always open to discussing AI projects, research opportunities, or potential collaborations.</p>
+                    <div class="contact-details">
+                        <p><i class='bx bx-envelope'></i> hamidreza.jamshidpour@gmail.com</p>
+                        <p><i class='bx bx-phone'></i> +98141234567</p>
+                        <p><i class='bx bx-map'></i> Urmia, Iran</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-telegram'></i></a>
+                        <a href="#"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Hamidreza Jamshsb. All Rights Reserved.</p>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
-
 </html>
